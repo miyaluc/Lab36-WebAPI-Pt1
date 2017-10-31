@@ -25,17 +25,22 @@ namespace lab36_miya.Controllers
         [HttpGet ("{id:int?}")]
         public IActionResult Get(int id)
         {
+            //storing a LINQ query containing a lambda statement within an anonymous variable
             var result = _context.RequiredCoursework.FirstOrDefault(h => h.ID == id);
+            //returning a good status code (200)
             return Ok(result);
         }
 
         //Post - creates a resource
+        //from body in a form of model binding that controls requirements added to the database
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] RequiredCoursework requirement)
         {
-            _context.Add(requirement);
+            await _context.AddAsync(requirement);
             await _context.SaveChangesAsync();
 
+
+            //this will return a get URL that references the new requirement added
             return CreatedAtAction("Get", new {id = requirement.ID }, requirement);
         }
 

@@ -12544,11 +12544,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj",
+      "projectUniqueName": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj",
       "projectName": "lab36_miya",
-      "projectPath": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj",
+      "projectPath": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj",
       "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\obj\\",
+      "outputPath": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

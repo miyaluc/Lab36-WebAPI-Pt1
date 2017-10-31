@@ -13540,11 +13540,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectUniqueName": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "projectName": "XUnitTestProject1",
-      "projectPath": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\XUnitTestProject1.csproj",
+      "projectPath": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\XUnitTestProject1.csproj",
       "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\obj\\",
+      "outputPath": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\XUnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13563,8 +13563,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj": {
-              "projectPath": "C:\\Users\\shami\\Source\\Repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj"
+            "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj": {
+              "projectPath": "C:\\Users\\shami\\source\\repos\\Lab36-WebAPI-Pt1\\lab36_miya\\lab36_miya\\lab36_miya.csproj"
             }
           }
         }
