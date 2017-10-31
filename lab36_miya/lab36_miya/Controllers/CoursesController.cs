@@ -15,11 +15,6 @@ namespace lab36_miya.Controllers
     {
         private readonly Lab36DbContext _context;
 
-        //this was generated as a way to instantiate a new Controller without taking any arguments
-        public CoursesController()
-        {
-        }
-
         public CoursesController(Lab36DbContext context)
         {
             _context = context;
