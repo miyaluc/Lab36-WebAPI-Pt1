@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 namespace lab36_miya.Controllers
 {
     //below is a route token inside of attribute routing - curly braces make the routing more dynamic
-    [Route("api/{controller}")]
     //we are using ControllerBase instead of Controller here because this will not be a front-facing app
+    [Route("api/[controller]")]
     public class CoursesController : ControllerBase
     {
         private readonly Lab36DbContext _context;
@@ -21,7 +21,7 @@ namespace lab36_miya.Controllers
         }
 
         ////Get
-        [HttpGet ("{}id:int?")]
+        [HttpGet ("{id:int?}")]
         public IActionResult Get(int id)
         {
             var result = _context.RequiredCoursework.FirstOrDefault(h => h.ID == id);

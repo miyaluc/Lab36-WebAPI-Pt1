@@ -12,3 +12,5 @@ C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\De
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.AssemblyInfo.cs
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.dll
 C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\obj\Debug\netcoreapp2.0\XUnitTestProject1.pdb
+C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\bin\Debug\netcoreapp2.0\lab36_miya.dll
+C:\Users\shami\Source\Repos\Lab36-WebAPI-Pt1\lab36_miya\XUnitTestProject1\bin\Debug\netcoreapp2.0\lab36_miya.pdb

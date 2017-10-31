@@ -6,15 +6,17 @@ namespace XUnitTestProject1
 {
     public class UnitTest1
     {
-        [Fact]
-        public void GetReturnsInt()
-        {
-            //Arrange
-            var controller = new CoursesController();
+        //[Fact]
+        //public void GetReturnsInt()
+        //{
+        //    //Arrange
+        //    var controller = new CoursesController();
 
-            //Act
+        //    //Act
+        //    var result = controller.Get();
 
-            //Assert
-        }
+        //    //Assert
+        //    Assert.IsType(typeof(int), result);
+        //}
     }
 }
