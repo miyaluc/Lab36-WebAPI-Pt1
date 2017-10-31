@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using lab36_miya.Data;
+using lab36_miya.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,21 +13,32 @@ namespace lab36_miya.Controllers
     //we are using ControllerBase instead of Controller here because this will not be a front-facing app
     public class CoursesController : ControllerBase
     {
-        public CoursesController(lab36_miyaDbContext context)
-        {
+        private readonly Lab36DbContext _context;
 
+        public CoursesController(Lab36DbContext context)
+        {
+            _context = context;
         }
 
-        //Get
-        [HttpGet]
-        public IActionResult Get()
+        ////Get
+        [HttpGet ("{}id:int?")]
+        public IActionResult Get(int id)
         {
-
+            var result = _context.RequiredCoursework.FirstOrDefault(h => h.ID == id);
+            return Ok(result);
         }
 
-        //Post
+        //Post - creates a resource
+        [HttpPost]
+        public async Task<IActionResult> Post([FromBody] RequiredCoursework requirement)
+        {
+            _context.Add(requirement);
+            await _context.SaveChangesAsync();
 
-        //Put
+            return CreatedAtAction("Get", new {id = requirement.ID }, requirement);
+        }
+
+        //Put - updates something to the resource or creates resource
 
         //Delete
     }
