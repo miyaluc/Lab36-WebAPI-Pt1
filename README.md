@@ -26,10 +26,10 @@
 
 ## ReadMe
 - Your readme should include the following information:
-	- How long did it take you to complete this assignment?
-	- What did you struggle with? Why? How did you solve?
-	- What did you learn during this assignment?
-    - What resources did you utilize for this assingment?
+	- How long did it take you to complete this assignment? about 3 frustrating hours
+	- What did you struggle with? Why? How did you solve? I struggled with finding the appsettings.json file before realizing that it's up to me to create it.
+	- What did you learn during this assignment? I learned the value of custom routing.
+    - What resources did you utilize for this assingment? class demos
 
 ## Rubric
 - 3pts: Get Action with requirements of the controller
